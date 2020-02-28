@@ -3,7 +3,7 @@
   <entry>
     <title>(转)藤野先生</title>
     <url>/2020/02/26/%E8%97%A4%E9%87%8E%E5%85%88%E7%94%9F/</url>
-    <content><![CDATA[<p>东京也无非是这样。上野2的樱花烂熳的时节，望去确也象绯红的轻云，但花下也缺不了成群结队的“清国留学生”的速成班3，头顶上盘着大辫子，顶得学生制帽的顶上高高耸起，形成一座富士山4。也有解散辫子，盘得平的，除下帽来，油光可鉴5，宛如小姑娘的发髻一般，还要将脖子扭几扭。实在标致极6了。<br>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>东京也无非是这样。上野2的樱花烂熳的时节，望去确也象绯红的轻云，但花下也缺不了成群结队的“清国留学生”的速成班3，头顶上盘着大辫子，顶得学生制帽的顶上高高耸起，形成一座富士山4。也有解散辫子，盘得平的，除下帽来，油光可鉴5，宛如小姑娘的发髻一般，还要将脖子扭几扭。实在标致极6了。<br>
 中国留学生会馆7的门房里有几本书买，有时还值得去一转；倘在上午，里面的几间洋房里倒也还可以坐坐的。但到傍晚，有一间的地板便常不免要咚咚咚地响得震天，兼以满房烟尘斗乱8；问问精通时事9的人，答道，“那是在学跳舞。”<br>
 到别的地方去看看，如何呢？<br>
 我就往仙台10的医学专门学校去。从东京出发，不久便到一处驿站，写道：日暮里。不知怎地，我到现在还记得这名目。其次却只记得水户11了，这是明的遗民朱舜水12先生客死13的地方。仙台是一个市镇，并不大；冬天冷得利害；还没有中国的学生。</p>
@@ -46,11 +46,19 @@
 他所改正的讲义，我曾经订成三厚本，收藏着的，将作为永久的纪念。不幸七年前迁居的时候，中途毁坏了一口书箱，失去半箱书，恰巧这讲义也遗失在内了。责成运送局去找寻，寂无回信。只有他的照相至今还挂在我北京寓居的东墙上，书桌对面。每当夜间疲倦，正想偷懒时，仰面在灯光中瞥见他黑瘦的面貌，似乎正要说出抑扬顿挫的话来，便使我忽又良心发现，而且增加勇气了，于是点上一枝烟，再继续写些为“正人君子”之流所深恶痛疾的文字。<br>
 😄🌟👪🏃</p>
 ]]></content>
+      <categories>
+        <category>文学</category>
+      </categories>
+      <tags>
+        <tag>医学</tag>
+        <tag>救人</tag>
+        <tag>鲁迅</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
     <url>/2020/02/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start"></a>Quick Start</h2>
 <h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post"></a>Create a new post</h3>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></div>
