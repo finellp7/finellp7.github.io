@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>正则表达式</title>
+    <url>/2020/02/29/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.正则表达式基本语法</p>
+<p>两个特殊的符号’^‘和’$’。他们的作用是分别指出一个字符串的开始和结束。</p>
+<p>例子如下：</p>
+<p>“^The”：表示所有以&quot;The&quot;开始的字符串（“There”，&quot;The cat&quot;等）；</p>
+<p>“of despair$”：表示所以以&quot;of despair&quot;结尾的字符串；</p>
+<p>“^abc$”：表示开始和结尾都是&quot;abc&quot;的字符串——呵呵，只有&quot;abc&quot;自己了；</p>
+<p>“notice”：表示任何包含&quot;notice&quot;的字符串。</p>
+<p>象最后那个例子，如果你不使用两个特殊字符，你就在表示要查找的串在被查找串的任意部分——你并<br>
+不把它定位在某一个顶端。</p>
+<p>其它还有’*’，’+‘和’?'这三个符号，表示一个或一序列字符重复出现的次数。</p>
+<p>它们分别表示“没有或更多”，“一次或更多”还有“没有或一次”。<br>
+下面是几个例子：</p>
+<p>“ab*”：表示一个字符串有一个a后面跟着零个或若干个b。（“a”, “ab”, “abbb”,……）；</p>
+<p>“ab+”：表示一个字符串有一个a后面跟着至少一个b或者更多；</p>
+<p>“ab?”：表示一个字符串有一个a后面跟着零个或者一个b；</p>
+<p>“a?b+$”：表示在字符串的末尾有零个或一个a跟着一个或几个b。</p>
+<p>你也可以使用范围，用大括号括起，用以表示重复次数的范围。</p>
+<p>“ab{2}”：表示一个字符串有一个a跟着2个b（“abb”）；</p>
+<p>“ab{2,}”：表示一个字符串有一个a跟着至少2个b；</p>
+<p>“ab{3,5}”：表示一个字符串有一个a跟着3到5个b。</p>
+<p>请注意，你必须指定范围的下限（如：&quot;{0,2}“而不是”{,2}&quot;）。</p>
+<p>还有，你可能注意到了，’*’，’+‘和’?'相当于&quot;{0,}&quot;，&quot;{1,}“和”{0,1}&quot;。</p>
+<p>还有一个’¦’，表示“或”操作：</p>
+<p>“hi¦hello”：表示一个字符串里有&quot;hi&quot;或者&quot;hello&quot;；</p>
+<p>“(b¦cd)ef”：表示&quot;bef&quot;或&quot;cdef&quot;；</p>
+<p>“(a¦b)*c”：表示一串&quot;a&quot;“b&quot;混合的字符串后面跟一个&quot;c”；</p>
+<p>'.'可以替代任何字符：</p>
+<p>“a.[0-9]”：表示一个字符串有一个&quot;a&quot;后面跟着一个任意字符和一个数字；</p>
+<p>“^.{3}$”：表示有任意三个字符的字符串（长度为3个字符）；</p>
+<p>方括号表示某些字符允许在一个字符串中的某一特定位置出现：</p>
+<p>“[ab]”：表示一个字符串有一个&quot;a&quot;或&quot;b&quot;（相当于&quot;a¦b&quot;）；</p>
+<p>“[a-d]”：表示一个字符串包含小写的’a’到’d’中的一个（相当于&quot;a¦b¦c¦d&quot;或者&quot;[abcd]&quot;）；</p>
+<p>“<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>”：表示一个以字母开头的字符串；</p>
+<p>“[0-9]%”：表示一个百分号前有一位的数字；</p>
+<p>“,[a-zA-Z0-9]$”：表示一个字符串以一个逗号后面跟着一个字母或数字结束。</p>
+<p>你也可以在方括号里用’<sup>‘表示不希望出现的字符，’</sup>'应在方括号里的第一位。</p>
+<p>（如：&quot;%[^a-zA-Z]%&quot;表示两个百分号中不应该出现字母）。</p>
+<p>为了逐字表达，你必须在&quot;^.$()¦*+?{&quot;这些字符前加上转移字符’’。</p>
+<p>^ 表示打头的字符要匹配紧跟^后面的规则</p>
+<p>$ 表示打头的字符要匹配紧靠$前面的规则</p>
+<p>[ ] 中的内容是可选字符集</p>
+<p>[0-9] 表示要求字符范围在0-9之间</p>
+<p>{1,20}表示数字字符串长度合法为1到20，即为[0-9]中的字符出现次数的范围是1到20次。<br>
+/^ 和 $/成对使用应该是表示要求整个字符串完全匹配定义的规则，而不是只匹配字符串中的一个子串。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>a-zA-Z <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>知识点</category>
+      </categories>
+      <tags>
+        <tag>正则表达式</tag>
+        <tag>js</tag>
+        <tag>知识点</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>(转)藤野先生</title>
     <url>/2020/02/26/%E8%97%A4%E9%87%8E%E5%85%88%E7%94%9F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>东京也无非是这样。上野2的樱花烂熳的时节，望去确也象绯红的轻云，但花下也缺不了成群结队的“清国留学生”的速成班3，头顶上盘着大辫子，顶得学生制帽的顶上高高耸起，形成一座富士山4。也有解散辫子，盘得平的，除下帽来，油光可鉴5，宛如小姑娘的发髻一般，还要将脖子扭几扭。实在标致极6了。<br>
